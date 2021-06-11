@@ -2,10 +2,7 @@
   <div id="navigation">
     <ul>
       <li>Home</li>
-      <li>Articles</li>
-      <li>Magazines</li>
-      <li>Editors</li>
-      <li>Readers</li>
+      <li>Books</li>
     </ul>
     <div class="search">
       <input
@@ -17,11 +14,11 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {};
 </script>
 
-<style>
+<style scoped>
 #navigation {
   display: flex;
   width: 100%;
@@ -30,7 +27,7 @@ export default {};
 #navigation ul {
   display: flex;
   list-style: none;
-  padding: 0;
+  padding: 10;
   margin: 0 20px 0 0;
 }
 #navigation ul li {
