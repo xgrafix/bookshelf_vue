@@ -40,19 +40,23 @@ export default {};
   background-position: top;
   border-radius: 20px;
   overflow: hidden;
+  text-align: center;
+
 }
 .teaser .teaser-content {
   position: absolute;
   left: 20px;
   bottom: 20px;
-  width: 210px;
+  width: 240px;
   height: 50px;
-  padding: 0 0 0 20px;
+  /* padding: 0 0 0 0px */
+  padding-top: 20px;
   background-color: #111;
   color: #efefef;
-  border-radius: 20px;
-  font-size: 2rem;
+  border-radius: 40px;
+  font-size: 1.5rem;
   cursor: pointer;
+  text-align: center;
 }
 .teaser i {
   font-size: 1.6rem;
