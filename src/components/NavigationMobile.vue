@@ -56,14 +56,15 @@ export default {};
   margin: 0;
   border-radius: 20px;
   background-color: #efefef;
-  font-family: "Segoe UI", Tahoma;
+  /* font-family: "Segoe UI", Tahoma; */
+  font-family:courier,arial,helvetica;
   font-size: 1rem;
 }
 #navigation-mobile .search i {
   position: absolute;
   right: 5px;
   top: 10px;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   color: #aaa;
   cursor: pointer;
 }
