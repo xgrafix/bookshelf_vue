@@ -6,7 +6,7 @@
         <div id="navigation-icon" v-if="mobileView" @click="showNav = !showNav">
           <i class="fas fa-bars"></i>
         </div>
-        <headers v-if="!mobileView" />
+        <navigation v-if="!mobileView" />
       </div>
       <!-- <content /> -->
       <!-- <content></content> -->
@@ -16,7 +16,7 @@
 </template>
 
 <script lang="ts">
-import Headers from "./components/Headers.vue";
+import Navigation from "./components/Navigation.vue";
 import NavigationMobile from "./components/NavigationMobile.vue";
 import Content from "./components/Content.vue";
 
@@ -33,7 +33,7 @@ export default {
     },
   },
   components: {
-    Headers,
+    Navigation,
     NavigationMobile,
     Content,
   },
@@ -54,8 +54,10 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", Tahoma;
-  background-color: #7ca971;
+  /* font-family: "Segoe UI", Tahoma; */
+  font-family: courier,arial,helvetica;
+  /* background-color: #7ca971; */
+  background-color: #772323;
 }
 #app {
   position: relative;
