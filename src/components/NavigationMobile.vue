@@ -6,10 +6,8 @@
     </div>
     <ul>
       <li>Home</li>
-      <li>Articles</li>
-      <li>Magazines</li>
-      <li>Editors</li>
-      <li>Readers</li>
+      <li>Books</li>
+      <li>About</li>
     </ul>
     <div class="social-media">
       <i class="fab fa-twitter"></i>
@@ -75,7 +73,9 @@ export default {};
 }
 #navigation-mobile .social-media i {
   margin: 0 20px 0 0;
+  padding-bottom: 20px;
   color: #fff;
   font-size: 2rem;
+  text-align: center;
 }
 </style>
