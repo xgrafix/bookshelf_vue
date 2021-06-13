@@ -1,13 +1,14 @@
 <template>
-  <div id="navigation">
-    <ul>
+  <div id="navigation" style="display: block;">
+    <ul style="float: left;">
       <li>Home</li>
       <li>Books</li>
+      <li>About</li>
     </ul>
-    <div class="search">
+    <div class="search" style="float: right;">
       <input
         type="text"
-        placeholder="Search for articles, people or magazines"
+        placeholder="Search for Books, and more."
       />
       <i class="fas fa-search"></i>
     </div>
@@ -46,7 +47,7 @@ export default {};
 #navigation .search input {
   border: none;
   outline: none;
-  width: calc(100% - 80px);
+  width: calc(100% - 140px);
   padding: 15px 60px 15px 20px;
   margin: 0;
   border-radius: 30px;
@@ -57,7 +58,7 @@ export default {};
 }
 #navigation .search i {
   position: absolute;
-  right: 20px;
+  right: 80px;
   top: 15px;
   font-size: 1.2rem;
   color: #aaa;
