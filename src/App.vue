@@ -2,12 +2,14 @@
   <div id="app">
     <navigation-mobile />
     <div class="content" :class="{ open: showNav }">
+
       <div class="top-bar">
         <div id="navigation-icon" v-if="mobileView" @click="showNav = !showNav">
           <i class="fas fa-bars"></i>
         </div>
         <navigation v-if="!mobileView" />
       </div>
+      <img src="./assets/books.svg" alt="Kiwi standing on oval">
       <!-- <content /> -->
       <!-- <content></content> -->
       <Content />
