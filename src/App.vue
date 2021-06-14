@@ -10,8 +10,6 @@
         <navigation v-if="!mobileView" />
       </div>
       <img src="./assets/books.svg" alt="Kiwi standing on oval">
-      <!-- <content /> -->
-      <!-- <content></content> -->
       <Content />
     </div>
   </div>
@@ -33,6 +31,9 @@ export default {
     handleView() {
       this.mobileView = window.innerWidth <= 990;
     },
+    handleMobile() {
+      this.mobileView = window.innerWidth > 990;
+    }
   },
   components: {
     Navigation,
